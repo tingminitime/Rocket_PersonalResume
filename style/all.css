@@ -31,7 +31,7 @@ img{
   vertical-align: middle;
 }
 
-.content{
+.content, .header{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -47,8 +47,11 @@ img{
 }
 
 /* ------ header ------ */
-.header {
+.headerWrap {
   background-color: #3DAD88;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
